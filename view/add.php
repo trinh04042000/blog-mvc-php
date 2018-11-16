@@ -4,7 +4,7 @@
         echo "<p class='alert-info'>$message</p>";
     }
 ?>
-<form method="post" action="/index.php?page=add">
+<form method="post">
     <div class="form-group">
         <label>Title</label>
         <input type="text" name="title" class="form-control"/>

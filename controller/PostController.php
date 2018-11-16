@@ -17,7 +17,7 @@ class PostController
 
     public function __construct()
     {
-        $connection = new DBConnection("mysql:host=localhost;dbname=blog","root", "123456");
+        $connection = new DBConnection("mysql:host=127.0.0.1;dbname=blog","root", "Letrinh123");
         $this->postDB = new PostDB($connection->connect());
     }
 
